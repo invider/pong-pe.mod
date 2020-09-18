@@ -1,2 +1,4 @@
-# pong-pe.mod
+# Pong PowerUps Edition Mod 
+
 Collider.JAM Pong Challenge
+
