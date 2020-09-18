@@ -24,17 +24,18 @@ function setup() {
         }
     })
 
+    const shift = 50
     lab.spawn('Paddle', {
         name: 'left',
         left: true,
-        x: rx(.1),
+        x: shift,
         y: ry(.5),
     })
 
     lab.spawn('Paddle', {
         name: 'right',
         left: false,
-        x: rx(.9),
+        x: rx(1) - shift,
         y: ry(.5), 
     })
 

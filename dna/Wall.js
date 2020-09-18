@@ -29,9 +29,11 @@ class Wall {
         return false
     }
 
+    /*
     draw() {
         lineWidth(1)
         stroke(.19, .5, .5)
         line(this.x1, this.y1, this.x2, this.y2)
     }
+    */
 }

@@ -1,3 +1,0 @@
-function spaceDown() {
-    trap('puck')
-}

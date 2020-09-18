@@ -59,6 +59,8 @@ class Paddle {
             puck.dy = sin(fi)
             //puck.dx = -puck.dx
             //puck.dy = -puck.dy
+            
+            lib.sfx(res.sfx.boing, .3)
             return true
         }
         return false
