@@ -10,7 +10,8 @@ class Puck {
     constructor(st) {
         augment(this, df)
         augment(this, st)
-        const fi = lib.math.rndfi()
+        
+        const fi = rnd() * TAU
         this.dx = cos(fi)
         this.dy = sin(fi)
     }

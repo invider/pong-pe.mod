@@ -21,7 +21,8 @@ class Wall {
 
             puck.dx = puck.dx - 2*vx
             puck.dy = puck.dy - 2*vy
-            puck.lastHit = this
+
+            if (this.onHit) this.onHit(puck)
 
             return true
         }
